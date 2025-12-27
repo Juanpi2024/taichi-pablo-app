@@ -1,0 +1,7 @@
+{
+  "name": "Tai Chi Flow & AI Posture",
+  "description": "Una aplicación avanzada de Tai Chi con seguimiento de postura por IA, visualización 3D y planes de entrenamiento personalizados.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
