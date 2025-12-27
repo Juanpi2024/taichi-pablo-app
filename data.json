@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "name": "Nivel 1: Fundamentos y Principios",
+        "description": "Introducción a los conceptos básicos, la respiración y los 10 principios esenciales del Tai Chi Chuan.",
+        "progress": 45,
+        "status": "En curso",
+        "thumbnail": "https://picsum.photos/seed/taichi_fund/600/400",
+        "exercises": [
+            {
+                "id": "f1",
+                "name": "Los 10 Principios Esenciales",
+                "style": "Yang",
+                "duration": "12 min",
+                "difficulty": "Principiante",
+                "description": "Explicación detallada de los 10 principios fundamentales dictados por Yang Chengfu para la práctica correcta.",
+                "tags": [
+                    "Teoría",
+                    "Fundamentos"
+                ],
+                "thumbnail": "https://picsum.photos/seed/principios/600/400",
+                "videoUrl": "/taichi/Los 10 principios del Tai Chi Chuan.mp4",
+                "instructions": [
+                    "Mantener la cabeza erguida para que el espíritu suba (Xu Ling Ding Jin).",
+                    "Hundir el pecho y estirar la espalda (Han Xiong Ba Bei).",
+                    "Relajar la cintura (Song Yao).",
+                    "Distinguir lo lleno y lo vacío (Fen Xu Shi).",
+                    "Bajar los hombros y colgar los codos (Chen Jian Zhui Zhou)."
+                ]
+            },
+            {
+                "id": "f2",
+                "name": "Fundamentos del Movimiento",
+                "style": "Básico",
+                "duration": "15 min",
+                "difficulty": "Principiante",
+                "description": "Aprende la coordinación entre pies, manos y cintura siguiendo los principios de fluidez.",
+                "tags": [
+                    "Movimiento",
+                    "Práctica"
+                ],
+                "thumbnail": "https://picsum.photos/seed/movimiento/600/400",
+                "videoUrl": "/taichi/Taichí básico_ Fundamentos del movimiento.mp4",
+                "instructions": [
+                    "Inicia con la postura Wu Ji.",
+                    "Sincroniza la respiración con el ascenso y descenso de los brazos.",
+                    "Mantén el centro de gravedad bajo y estable."
+                ]
+            },
+            {
+                "id": "f3",
+                "name": "Rutina Básica Poderosa",
+                "style": "Mixto",
+                "duration": "20 min",
+                "difficulty": "Principiante",
+                "description": "Una combinación de Qi Gong y Tai Chi para activar la energía vital y calentar el cuerpo.",
+                "tags": [
+                    "Rutina",
+                    "Energía"
+                ],
+                "thumbnail": "https://picsum.photos/seed/rutina/600/400",
+                "videoUrl": "/taichi/Rutina BASICA  pero PODEROSA de Tai Chi y Qi Gong_Chi Kung.mp4"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Nivel 2: Las 13 Posturas (Ba Gua y Wu Bu)",
+        "description": "Estudio de las 8 técnicas de mano y las 5 direcciones de pasos que forman la base del Tai Chi.",
+        "progress": 0,
+        "status": "Bloqueado",
+        "thumbnail": "https://picsum.photos/seed/13posturas/600/400",
+        "exercises": [
+            {
+                "id": "p1",
+                "name": "Peng (Rechazar) y Lü (Desviar)",
+                "style": "Yang",
+                "duration": "10 min",
+                "difficulty": "Intermedio",
+                "description": "Las dos primeras fuerzas de las 8 manos. Peng es la energía expansiva y Lü es la energía de tracción.",
+                "tags": [
+                    "8 Manos",
+                    "Técnica"
+                ],
+                "thumbnail": "https://picsum.photos/seed/penglu/600/400",
+                "instructions": [
+                    "Manten el arco circular en los brazos para Peng.",
+                    "Gira la cintura para guiar la fuerza del oponente en Lü."
+                ],
+                "isLocked": true
+            },
+            {
+                "id": "p2",
+                "name": "Ji (Presionar) y An (Empujar)",
+                "style": "Yang",
+                "duration": "10 min",
+                "difficulty": "Intermedio",
+                "description": "Las técnicas 3 y 4. Ji es la presión explosiva y An es el flujo constante como el agua.",
+                "tags": [
+                    "8 Manos",
+                    "Técnica"
+                ],
+                "thumbnail": "https://picsum.photos/seed/jian/600/400",
+                "isLocked": true
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Nivel 3: Tai Chi Terapéutico y Salud",
+        "description": "Enfoque en la salud intestinal, pulmonar y fortalecimiento abdominal mediante técnicas suaves.",
+        "progress": 0,
+        "status": "Bloqueado",
+        "thumbnail": "https://picsum.photos/seed/terap/600/400",
+        "exercises": [
+            {
+                "id": "t1",
+                "name": "Fortalece tus Pulmones",
+                "style": "Terapéutico",
+                "duration": "18 min",
+                "difficulty": "Principiante",
+                "description": "Ejercicios específicos para expandir la capacidad pulmonar y mejorar la oxigenación.",
+                "tags": [
+                    "Salud",
+                    "Respiración"
+                ],
+                "thumbnail": "https://picsum.photos/seed/pulmon/600/400",
+                "videoUrl": "/taichi/Fortalece tus PULMONES con Tai Chi & Chi Kung - Ejercicios TERAPEUTICOS.mp4"
+            },
+            {
+                "id": "t2",
+                "name": "Salud Intestinal y Abdomen",
+                "style": "Qi Gong",
+                "duration": "15 min",
+                "difficulty": "Principiante",
+                "description": "Movimientos circulares para masajear los órganos internos y reducir la inflamación.",
+                "tags": [
+                    "Digestión",
+                    "Abdomen"
+                ],
+                "thumbnail": "https://picsum.photos/seed/intestino/600/400",
+                "videoUrl": "/taichi/Como reducir la INFLAMACION y sanar tus INTESTINOS con ejercicios de CHI KUNG.mp4"
+            }
+        ]
+    }
+]

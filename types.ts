@@ -1,14 +1,14 @@
 
-export type AppView = 
-  | 'login' 
-  | 'register' 
-  | 'dashboard' 
-  | 'levels' 
-  | 'level-detail' 
-  | 'exercise-detail' 
-  | 'ai-feedback' 
-  | 'visualizer-3d' 
-  | 'custom-plan' 
+export type AppView =
+  | 'login'
+  | 'register'
+  | 'dashboard'
+  | 'levels'
+  | 'level-detail'
+  | 'exercise-detail'
+  | 'ai-feedback'
+  | 'visualizer-3d'
+  | 'custom-plan'
   | 'offline-manager';
 
 export interface Exercise {
@@ -21,6 +21,8 @@ export interface Exercise {
   tags: string[];
   thumbnail: string;
   isLocked?: boolean;
+  instructions?: string[];
+  videoUrl?: string;
 }
 
 export interface Level {
@@ -30,4 +32,5 @@ export interface Level {
   progress: number;
   status: 'Completado' | 'En curso' | 'Bloqueado';
   exercises: Exercise[];
+  thumbnail?: string;
 }
